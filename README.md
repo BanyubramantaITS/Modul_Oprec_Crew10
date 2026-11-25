@@ -103,10 +103,16 @@ ls # list apa aja yang ada di dalam directory
 mkdir # membuat folder
 touch # membuat file
 
+cp # copy file
+
+mv # memindahkan file 
+
 rm # menghapus file
 rm -rf # mengahpus file secara rekursif (secara paksa)
 
 nano # membaca dan mengedit file secara langsung tanpa IDE
+
+apt # install sesuatu di ubuntu
 
 sudo # super do untuk melakukan hal yang luar biasa (biasanya untuk menginstall sesuatu / unlock sesuatu)
 ```
@@ -120,9 +126,6 @@ Instalasi Git dapat dilakukan dengan command berikut:
 ```bash
 sudo apt install git gawk make -y
 ```
-
-Sebelum itu, kalian bisa melihat tutorial Git/GitHub agar kalian bisa memahami cara menggunakan Git untuk di Banyubramanta nantinya di link berikut:
-[W3Schools - Git Tutorial](https://www.w3schools.com/git/)
 
 ## Basic git command
 ```bash
@@ -140,6 +143,10 @@ git push # mengupload perubahan ke github
 
 ```
 ![gito](assets/gito.png)
+
+
+Sebelum itu, kalian bisa melihat tutorial Git/GitHub agar kalian bisa memahami cara menggunakan Git untuk di Banyubramanta nantinya di link berikut:
+[W3Schools - Git Tutorial](https://www.w3schools.com/git/)
 
 Link diatas mencakup bagian yang paling dipakai di Git, yang tentunya nanti kalian akan paling banyak pakai juga. Tetapi ada beberapa note, yaitu:
 
