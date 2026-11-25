@@ -6,6 +6,7 @@ Welcome para intern Crew10 Banyubramanta, ini adalah modul-modul internship untu
 |Materi|Keterangan|
 |---|---|
 | ROS2 | Framework programming robot inti dari robotika |
+| Arsitektur | Flowchart / Arsitektur robot bawah air |
 | Behaviour Tree | Sistem untuk menentukan program yang berjalan di robot yang berbentuk tree |
 | Gazebo | Program untuk simulasi robot |
 | OpenCV & YOLO | sistem untuk computer vision |
@@ -32,7 +33,7 @@ Welcome para intern Crew10 Banyubramanta, ini adalah modul-modul internship untu
 
 ## Prerequisites
 
-Karena kita menggunakan framework dan program diatas, kita memerlukan OS **Ubuntu**. Ubuntu yang dipakai yaitu Ubuntu 24.04 (Noble Numbat) dikarenakan kecocokannya dengan versi ROS2 yang akan kita pakai nantinya.
+Karena kita menggunakan framework dan program diatas, kita memerlukan OS **Ubuntu**. Ubuntu yang dipakai yaitu Ubuntu 24.04 (Noble Numbat) dikarenakan kecocokannya dengan versi ROS2 Jazzy yang akan kita pakai nantinya.
 
 Ubuntu yang digunakan bisa Ubuntu biasa (berbasis GNOME), Kubuntu (berbasis KDE), Xubuntu (berbasis XFCE), Lubuntu (low-end friendly - LXQt).
 
@@ -103,7 +104,7 @@ mkdir # membuat folder
 touch # membuat file
 
 rm # menghapus file
-rm -rf # mengahpus folder
+rm -rf # mengahpus file secara rekursif (secara paksa)
 
 nano # membaca dan mengedit file secara langsung tanpa IDE
 
