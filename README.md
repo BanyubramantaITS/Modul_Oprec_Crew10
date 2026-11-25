@@ -1,7 +1,8 @@
-# Modul_Oprec_Crew10
+# Welcome!
 
 Welcome para intern Crew10 Banyubramanta, ini adalah modul-modul internship untuk mempersiapkan kalian dalam menangani tugas-tugas robotika bawah air.
 
+## Learning Tree
 |Materi|Keterangan|
 |---|---|
 | ROS2 | Framework programming robot inti dari robotika |
@@ -11,6 +12,19 @@ Welcome para intern Crew10 Banyubramanta, ini adalah modul-modul internship untu
 | ArduSub | distributed software untuk robot bawah air |
 
 ## Daftar Isi
+- [Welcome!](#welcome)
+  - [Learning Tree](#learning-tree)
+  - [Daftar Isi](#daftar-isi)
+- [Ubuntu](#ubuntu)
+  - [Prerequisites](#prerequisites)
+  - [Install file .iso (Image Ubuntu)](#install-file-iso-image-ubuntu)
+  - [Install Rufus](#install-rufus)
+    - [Input .iso ke flashdisk](#input-iso-ke-flashdisk)
+    - [Restart device dengan kondisi USB plugged in](#restart-device-dengan-kondisi-usb-plugged-in)
+  - [Install Ubuntu](#install-ubuntu)
+- [Git](#git)
+- [ble.sh (autocomplete)](#blesh-autocomplete)
+- [Terminal Emulators](#terminal-emulators)
 
 # Ubuntu
 
