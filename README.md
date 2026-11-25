@@ -22,7 +22,9 @@ Welcome para intern Crew10 Banyubramanta, ini adalah modul-modul internship untu
     - [Input .iso ke flashdisk](#input-iso-ke-flashdisk)
     - [Restart device dengan kondisi USB plugged in](#restart-device-dengan-kondisi-usb-plugged-in)
   - [Install Ubuntu](#install-ubuntu)
+  - [Basic Linux Command](#basic-linux-command)
 - [Git](#git)
+  - [Basic git command](#basic-git-command)
 - [ble.sh (autocomplete)](#blesh-autocomplete)
 - [Terminal Emulators](#terminal-emulators)
 
@@ -44,7 +46,7 @@ Untuk melakukan install Ubuntu sebenarnya ada berbagai cara, tetapi kita menggun
 
 Kalian bisa memilih distro Ubuntu kalian dulu. (ingat pakai Ubuntu 24.04, file bisa ditaruh dimanapun)
 
-- Ubuntu: https://releases.ubuntu.com/jammy/
+- Ubuntu: https://releases.ubuntu.com/noble/
 - Kubuntu: https://kubuntu.org/getkubuntu/
 - Lubuntu: https://lubuntu.me/downloads/
 - Xubuntu: https://xubuntu.org/download/
@@ -92,6 +94,22 @@ Kemudian lanjutkan proses instalasi kalian, dan...
 
 **Selesai!** Kalian sekarang bisa switch antara Windows dan Linux setiap kali kalian boot.
 
+## Basic Linux Command
+```bash
+cd # berpindah directory
+ls # list apa aja yang ada di dalam directory
+
+mkdir # membuat folder
+touch # membuat file
+
+rm # menghapus file
+rm -rf # mengahpus folder
+
+nano # membaca dan mengedit file secara langsung tanpa IDE
+
+sudo # super do untuk melakukan hal yang luar biasa (biasanya untuk menginstall sesuatu / unlock sesuatu)
+```
+
 # Git
 
 Singkatnya, Git merupakan sebuah alat untuk para developer (kita, dan kalian) gunakan untuk saling berkolaborasi. GitHub/GitLab merupakan service yang membuat repository kalian di host di cloud, yang memungkinan kolaborasi yang efektif.
@@ -104,6 +122,23 @@ sudo apt install git gawk make -y
 
 Sebelum itu, kalian bisa melihat tutorial Git/GitHub agar kalian bisa memahami cara menggunakan Git untuk di Banyubramanta nantinya di link berikut:
 [W3Schools - Git Tutorial](https://www.w3schools.com/git/)
+
+## Basic git command
+```bash
+git clone https://github.com/BanyubramantaITS/Modul_Oprec_Crew10.git # clone repository github ke local
+
+git pull # mengambil update dari github ke local
+
+git switch # berpindah branch
+
+git status # mengecek perubahan apa saja yang sudah dilakukan
+
+git add . # menambahkan perubahan
+git commit # menambahkan perubahan fix versi
+git push # mengupload perubahan ke github
+
+```
+![gito](assets/gito.png)
 
 Link diatas mencakup bagian yang paling dipakai di Git, yang tentunya nanti kalian akan paling banyak pakai juga. Tetapi ada beberapa note, yaitu:
 
@@ -145,4 +180,7 @@ Berikut beberapa contoh terminal emulator beserta kelebihan/kelemahannya:
 | Kitty                      | Penggunaan GPU untuk melakukan rendering, tampilan yang bagus setelah dikonfigurasi.           | Konfigurasi awal yang rumit, dan RAM usage tinggi.   |
 | Alacritty                  | Performa sangat cepat, tampilan yang bagus. (GPU-accerelated, OpenGL)    | Kurangnya dukungan tab native, RAM usage tinggi.    |
 
-Sekarang kalian bisa melanjutkan ke [ROS2](/ROS2)
+contoh kitty:
+![kitty](assets/kitty.png)
+
+Sekarang kalian bisa melanjutkan ke [ROS2](/ROS2/README.md)
